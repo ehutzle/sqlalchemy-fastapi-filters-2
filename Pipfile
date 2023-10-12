@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+pytest = "*"
+aiosqlite = "*"
+flake8 = "*"
+pydantic-sqlalchemy-2 = "==0.0.2"
+pytest-asyncio = "*"
+black = "*"
+sqlalchemy = ">2.0.0"
+greenlet = "*"
+
+[dev-packages]
+
+[requires]
+python_version = ">3.9"
